@@ -1,7 +1,7 @@
 ### DataFaker - repo of tools intended to help simulate test data 
 ***
 #### queue_injector app
-The need for queue_injector came from multiple teams who wanted a simple way to post test messages to the message queue services i.e. integration testing or by-passing ODS for integration testing.
+The need for queue_injector came from multiple teams who wanted a simple way to post test messages to the message queue services i.e. for integration testing.
 What makes queue_injector simple and valuable: 
 ```
 1. Simple Sinatra-based RestFul web service. 
