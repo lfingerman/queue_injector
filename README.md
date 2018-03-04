@@ -47,7 +47,7 @@ http://screencast.com/t/QwAQhCgN4
 * `SERVER_URL` (ex: tcp://<hostname>:8222)
 * `USERNAME` (ex: <username> if set on the queue)
 * `PASSWORD` (ex: <password> if set on the queue)
-* `QUEUE_NAME` (ex: blah.tibco.eteqa4.odsifs.0101.outbound.queue)
+* `QUEUE_NAME` (ex: blah.tibco.0101.outbound.queue)
 
 ##### Optional Headers:
 ---
