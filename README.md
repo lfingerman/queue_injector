@@ -1,4 +1,4 @@
-### DataFaker - repo of tools intended to help simulate test data for Manheim-based applications
+### DataFaker - repo of tools intended to help simulate test data 
 ***
 #### queue_injector app
 The need for queue_injector came from multiple teams who wanted a simple way to post test messages to the message queue services i.e. integration testing or by-passing ODS for integration testing.
@@ -28,14 +28,13 @@ for TIBCO:
 for ActiveMQ:
 <hostname><port>/qinjector/activemq
 
-As of 8/19/15 it is hosted here:
-http://onx-dc4ci-gridhub01.ove.local:7654
+http://<hostname>:7654
 and 
-http://man-dc4ci-gridhub01.ove.local:7654
+http://<hostname>:7654
 for redundancy
 
 So for example to post a message to activemq this would be the full endpoint
-http://onx-dc4ci-gridhub01.ove.local:7654/qinjector/activemq
+http://<hostname>:7654/qinjector/activemq
 ```
 #### Examples of using deployed qinjector API
 http://screencast.com/t/QwAQhCgN4
@@ -45,10 +44,10 @@ http://screencast.com/t/QwAQhCgN4
 ##### Required Headers :
 ---
 * `Content-Type` (ex: application/xml or application/json)
-* `SERVER_URL` (ex: tcp://qatibcoems01.imanheim.com:8222)
+* `SERVER_URL` (ex: tcp://<hostname>:8222)
 * `USERNAME` (ex: <username> if set on the queue)
 * `PASSWORD` (ex: <password> if set on the queue)
-* `QUEUE_NAME` (ex: man.tibco.eteqa4.odsifs.0101.outbound.queue)
+* `QUEUE_NAME` (ex: blah.tibco.eteqa4.odsifs.0101.outbound.queue)
 
 ##### Optional Headers:
 ---
