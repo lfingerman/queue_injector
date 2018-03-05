@@ -8,7 +8,7 @@ What makes queue_injector simple and valuable:
 2. It figures a way to post your test message to either TIBCO or 
 ActiveMQ message queue services. You don't need to worry how to connect with TIBCO or ActiveMQ
 3. You will need to know the server's endpoint (URL), username, password, 
-queue name and the message itself. queue_injector will do the mogic of posting your message for you.
+queue name and the message itself. queue_injector will do the magic of posting your message for you.
 ```
 #### Deploying and running
 ```
